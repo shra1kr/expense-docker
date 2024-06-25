@@ -9,6 +9,6 @@ WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
 RUN npm install
-CMD [ "node","index.js;"]
+CMD [ "node","index.js"]
 
 
